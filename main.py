@@ -3,7 +3,7 @@ import requests
 import time
 
 MY_GMAIL = "your_email@gmail.com"
-MY_PASSWORD = "your_app_password"
+MY_PASSWORD = "your_gmail_app_password[Not your gamil account password] "
 
 def position():
     response = requests.get("http://api.open-notify.org/iss-now.json")
